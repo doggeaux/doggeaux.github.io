@@ -1,0 +1,46 @@
+html {
+	background: url(https://mishkanasevere.com/wp-content/uploads/2015/10/dsc01429-e1510415911217.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.content {
+	position: absolute;
+	top:35%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.title {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 3px black;
+}
+
+.byline {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-style: italic;
+	margin-top: -5px;
+	font-size: 1.5em;
+}
+
+.byline > button {
+	width: 29em;
+	text-shadow: 2px 1px black;
+}
+
+.navbar {
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color: black !important;
+}
+
+.navbar > #navtext {
+	color: white;
+	text-shadow: 3px 0px red;
+	font-size: 2em;
+}
